@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Make:</strong>
+  <%= @bike.make %> <!--this is ruby code-->
+    <%= 1+1 %> <!--this is ruby codejkm-->
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @bike.color %>
+</p>
+
+<p>
+  <strong>Used for:</strong>
+  <%= @bike.used_for %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @bike.price %>
+</p>
+
+<%= link_to 'Edit', edit_bike_path(@bike) %> |
+<%= link_to 'Back', bikes_path %>
